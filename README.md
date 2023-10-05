@@ -2,52 +2,57 @@
 
 ## Overview
 
-This project aims to detect and analyze trends in bank account fraud using various Exploratory Data Analysis (EDA) techniques and Decision Tree algorithms. The data set comprises various fields like age, income, country of request origin, and credit risk score.
-
-Dataset from [here](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
+This project aims to detect and analyze trends in bank account fraud. The analysis is based on the Bank Account Fraud Dataset Suite (NeurIPS 2022) and employs various data mining techniques like Random Forest and Neural Networks along with Exploratory Data Analysis (EDA).
 
 ## Table of Contents
 
-1. [EDA Related to Hypotheses](#eda-related-to-hypotheses)
-2. [EDA for Other Interesting Fields](#eda-for-other-interesting-fields)
-3. [Notes for Report](#notes-for-report)
-4. [Decision Tree Implementation](#decision-tree-implementation)
+1. [Project Design and Outline](#project-design-and-outline)
+2. [Preprocessing and EDA](#preprocessing-and-eda)
+3. [Data Mining Techniques](#data-mining-techniques)
+4. [Findings](#findings)
 
 ---
 
-### EDA Related to Hypotheses
+### Project Design and Outline
 
-- **Purpose**: To investigate the original hypotheses related to age and income.
-- **Techniques Used**: Various types of data visualizations and statistical analyses.
-- **Key Findings**: 
-  - Approximately 75% of fraudulent applications were from people in their 30's-50's.
-  - Risk of fraud appears to increase with age.
-
----
-
-### EDA for Other Interesting Fields
-
-- **Purpose**: To explore other fields that are not directly related to our original hypotheses but look interesting.
-- **Techniques Used**: Data visualizations and cross-field comparisons.
-- **Key Findings**:
-  - Higher chances of fraud were observed for requests originating from a foreign country.
-  - Different behavior was noticed in credit risk scores between valid and fraudulent applications.
+- **Dataset**: [Bank Account Fraud Dataset Suite (NeurIPS 2022)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022?select=Base.csv)
+- **Questions/Hypotheses**: 
+  - Vulnerable demographics for victims of fraud.
+  - Correlation between income and fraud.
+  - Success rate of different fraud tactics.
 
 ---
 
-### Notes for Report
+### Preprocessing and EDA
 
-- Various EDA techniques were performed that relate to the original hypotheses.
-- Additional insights were obtained for other fields that initially seemed unrelated to the hypotheses.
-- Confidence intervals were calculated for mean age and mean income.
+- **Data Cleaning and Manipulation**: 
+  - Negative values set to zero.
+  - Missing values replaced with the mean of the attribute.
+- **EDA Related to Hypothesis**: 
+  - Focused on age and income groups.
+- **EDA Unrelated to Hypothesis**: 
+  - Investigated the country of request origin and credit risk score.
 
 ---
 
-### Decision Tree Implementation
+### Data Mining Techniques
 
-- **Purpose**: To build a predictive model for fraud detection.
-- **Techniques Used**: Decision Tree algorithms were used for the implementation.
-- **Key Findings**: The Decision Tree model was fine-tuned through various iterations to optimize its performance.
+- **Random Forest**: 
+  - Achieved an accuracy of approximately 98%.
+- **Neural Network (MLPClassifier)**: 
+  - Resulted in a correctness of approximately 95.77%.
+
+---
+
+### Findings
+
+- **Accepted Hypotheses**: 
+  - As income increases, the likelihood of falling victim to fraud increases.
+  - As age increases, the likelihood of falling victim to fraud increases.
+- **Key Insights**: 
+  - ~75% of fraudulent applications were in their 30’s - 50’s.
+  - Higher chances of fraud for requests originating from a foreign country.
+  - Average valid applications had a Credit Risk Score of ~100, while fraudulent applications had ~200.
 
 ---
 
