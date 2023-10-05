@@ -4,6 +4,8 @@
 
 This project aims to detect and analyze trends in bank account fraud using various Exploratory Data Analysis (EDA) techniques and Decision Tree algorithms. The data set comprises various fields like age, income, country of request origin, and credit risk score.
 
+Dataset from [here](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
+
 ## Table of Contents
 
 1. [EDA Related to Hypotheses](#eda-related-to-hypotheses)
