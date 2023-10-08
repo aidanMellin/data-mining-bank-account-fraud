@@ -84,7 +84,7 @@ This project aims to detect and analyze trends in bank account fraud. The analys
         - From the second graph we see that risk of fraud increases with age.
         - A comparatively much higher proportion of applicants in their 90’s are victims of
 fraud than applicants in their late teens or 20’s.
-    - Results: Based on our findings, we are accepting our initial hypothesis that as age increases, the likelihood of falling victim to fraud increases.
+    - Results: Based on the findings, the initial hypothesis is accepted: as age increases, the likelihood of falling victim to fraud increases.
         - As demonstrated in the graphs below, the proportion of fraudulent applications steadily increases with age. Graph 2 gives a good visual representation of the steady increase in fraudulent applications based on age group. 
   <img width="627" alt="image" src="https://github.com/aidanMellin/data-mining-bank-account-fraud/assets/50143737/079757bb-889e-4631-a571-20bd52a9a7b3">
 
@@ -92,12 +92,12 @@ fraud than applicants in their late teens or 20’s.
 
   2. Hypothesis: As income increases, the likelihood of falling victim to fraud for a number of reasons (including but not limited to the chance of being approved for an account) increases.
     - Description: Proportion of Total Valid Applications per Income Group
-      - Supports our hypothesis that as income increases, the chance of fraud increases.
+      - Supports the hypothesis that as income increases, the chance of fraud increases.
       - Fraud levels at their highest in group 0.9, but still relevant in groups 0.1, 0.6, 0.7, and 0.8.
     - Results:
-      - Based on our findings, we are accepting our initial hypothesis that as income increases, the likelihood of falling victim to fraud increases.
-      - As we can see in our graphs, fraud levels are definitely at their highest in group0.9 (the highest income group).
-      - Relating back to our initial question of finding a correlation between income and fraud, it is important to note that fraud levels are still relevant in groups 0.1, 0.6, 0.7, and 0.8.
+      - Based on the findings, initial hypothesis is accepted: as income increases, the likelihood of falling victim to fraud increases.
+      - As demonstrated in the graphs, fraud levels are definitely at their highest in group 0.9 (the highest income group).
+      - Relating back to the initial question of finding a correlation between income and fraud, it is important to note that fraud levels are still relevant in groups 0.1, 0.6, 0.7, and 0.8.
 
 <img width="1029" alt="image" src="https://github.com/aidanMellin/data-mining-bank-account-fraud/assets/50143737/64132f73-4372-429c-920d-303db32c3ca3">
 
